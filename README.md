@@ -115,11 +115,11 @@ In `student/trackmanagement.py` we appleid the following:
 In `mesurement.py` we initialized `track.x` and `track.P` and used `params.window` to update the socre using the following equations:
 
 to decreas the score:<br>
-<img src="https://latex.codecogs.com/svg.image?&space;\gamma&space;=&space;z&space;-&space;Hx" align="center" border="0" alt="New score = Old score -  \frac{1}{params.window} " width="353" height="46" /><br>
+<img src="https://latex.codecogs.com/svg.image?&space;New&space;score&space;=&space;old&space;score&space;-&space;\frac{1}{params.window}" width="353" height="46" /><br>
 
 to increase the score:
 
-<img src="https://latex.codecogs.com/svg.image?&space;\gamma&space;=&space;z&space;&plus;&space;Hx" align="center" border="0" alt="New score = Old score +  \frac{1}{params.window} " width="353" height="46" /><br>
+<img src="https://latex.codecogs.com/svg.image?&space;New&space;score&space;=&space;old&space;score&space;&plus;&space;\frac{1}{params.window}" width="353" height="46" /><br>
 
 In addition we update the cor to confirmed if the track score bigger than thresholed where we used `params.confirmed_threshold` as a thresholed to update the car to confirmed (in our work we used `params.confirmed_threshold = 0.8`).
 
