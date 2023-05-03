@@ -120,7 +120,7 @@ to decreas the score:<br>
 
 to increase the score:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=New%20score%20%3D%20Old%20score%20%2B%20%20%5Cfrac%7B1%7D%7Bparams.window%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="New score = Old score +  \frac{1}{params.window} " width="353" height="46" /><br>
+<img src="https://latex.codecogs.com/svg.image?&space;\gamma&space;=&space;z&space;&plus;&space;Hx" align="center" border="0" alt="New score = Old score +  \frac{1}{params.window} " width="353" height="46" /><br>
 
 In addition we update the cor to confirmed if the track score bigger than thresholed where we used `params.confirmed_threshold` as a thresholed to update the car to confirmed (in our work we used `params.confirmed_threshold = 0.8`).
 
