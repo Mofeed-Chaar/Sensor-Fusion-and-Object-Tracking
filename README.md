@@ -116,7 +116,7 @@ In `student/trackmanagement.py` we appleid the following:
 In `mesurement.py` we initialized `track.x` and `track.P` and used `params.window` to update the socre using the following equations:
 
 to decreas the score:<br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=New%20score%20%3D%20Old%20score%20-%20%20%5Cfrac%7B1%7D%7Bparams.window%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="New score = Old score -  \frac{1}{params.window} " width="353" height="46" /><br>
+<img src="https://latex.codecogs.com/svg.image?&space;\gamma&space;=&space;z&space;-&space;Hx" align="center" border="0" alt="New score = Old score -  \frac{1}{params.window} " width="353" height="46" /><br>
 
 to increase the score:
 
