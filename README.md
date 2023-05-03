@@ -91,7 +91,6 @@ In addition we implemened `F()` and `Q()`
 
 To implement them we utilized `gamma()` and `s()` functions where:<br>
 <img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cgamma%20%20%3D%20z%20-%20Hx&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \gamma  = z - Hx" width="90" height="19" /><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20S%20%20%3D%20HP%20H%5E%7BT%7D%20%2B%20R&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt=" S  = HP H^{T} + R" width="114" height="19" /><br>
 
 In addition we called `get_hx()` and `get_H` from `students/measurements.py` and used `params.dt` to get the time step.
 
