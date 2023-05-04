@@ -126,7 +126,10 @@ In addition we update the cor to confirmed if the track score bigger than thresh
 ## Results
 by run the file `loop_over_dataset.py` we got the following results:<br>
 
-https://user-images.githubusercontent.com/84534790/235970849-fa372014-9963-40b1-b788-8d1d1e82016f.mp4
+
+
+https://user-images.githubusercontent.com/84534790/236192883-3917616c-6114-45b0-bf2d-75b1df00c3f7.mp4
+
 
 
 The plot of the mean RMSE:<br>
@@ -153,7 +156,11 @@ In the funtion `get_closest_track_and_meas()` we extracted the minumum `associat
 by run the file `loop_over_dataset.py` we got the following results:<br>
 The car detection shown in the followin vedio:<br>
 
-https://user-images.githubusercontent.com/84534790/235971068-202448a6-c47e-4e85-b442-9080601cd337.mp4
+
+
+https://user-images.githubusercontent.com/84534790/236192937-f874c803-5ba8-4e58-bf5a-1abee30ee415.mp4
+
+
 
 
 The plot of the mean RMSE:<br>
@@ -170,10 +177,7 @@ In `Sensor` class we implemented `in_fov()` function to check if the track insid
 by run the file `loop_over_dataset.py` we got the following results:<br>
 The car detection shown in the followin vedio:<br>
 
-https://user-images.githubusercontent.com/84534790/235971164-854e42cc-b6d4-4fa5-be4c-039de7e0a4b4.mp4
-
-
-The plot of the mean RMSE:<br>
+The plot of the mean RMSE as the following:<br>
 <img src="img/step4_1.png"><br>
 
 
