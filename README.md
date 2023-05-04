@@ -124,7 +124,7 @@ to increase the score:
 In addition we update the cor to confirmed if the track score bigger than thresholed where we used `params.confirmed_threshold` as a thresholed to update the car to confirmed (in our work we used `params.confirmed_threshold = 0.8`).
 
 ## Results
-by run the file `loop_over_dataset.py` we got the following results:<br>
+by run the file `loop_over_dataset.py` we got the following results we could see the track has deleted at the end of vedio:<br>
 
 
 
