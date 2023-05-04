@@ -63,21 +63,6 @@ class Track:
         ############
         # END student code
         ############ 
-        '''
-        def append_assignment_and_compute_score(self, assignment, cnt_frame):
-            if cnt_frame in self.assignments:
-                self.assignments[cnt_frame].append(assignment)
-            else:
-                self.assignments[cnt_frame] = [assignment]
-            points = 0
-            for frame in self.assignments.keys():
-                if cnt_frame - frame < params.window:
-                    assignments = self.assignments[frame]
-                    points += any(assignments)
-                    points += len(assignments) > 1 and all(assignments)
-            self.score = points / float(params.window)  
-        '''
-
 
         # other track attributes
         self.id = id
